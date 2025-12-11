@@ -1,0 +1,11 @@
+server:
+  port: 9030
+
+spring:
+  application:
+    name: module-three
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
